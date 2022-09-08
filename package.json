@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DhruvDh/website.git",
+  "author": "dhruvdh <dhruv.dhamani@gmail.com>",
+  "license": "CC-BY-SA-4.0",
+  "private": true,
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev . --host",
+    "docs:build": "vitepress build .",
+    "docs:serve": "vitepress serve ."
+  }
+}
