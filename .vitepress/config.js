@@ -8,7 +8,6 @@ export default defineConfig({
     description: 'these are some things I\'ve thought recently',
     // base: "/website/",
     lastUpdated: true,
-    outDir: './docs/',
     themeConfig: {
         siteTitle: 'Dhruv Dhamani',
         sidebar: getSidebar()
