@@ -1,5 +1,7 @@
 # Resume
 
+[Please also see my github.](https://github.com/dhruvdh)
+
 ## Education details
 
 | Year      | Degree                                             | Institution                             |
@@ -39,12 +41,70 @@
 
 ## Academic Projects
 
+-   **Solution for SemEval Task 3: EmoContext**\
+    *Natural Language Processing*
+
+    Implemented a moderately successful solution (ranked 44th/241 as of 12/13/2018) for SemEval 2019 Task 3: EmoContext: Contextual Emotion Detection in Text., using a non-traditional Bi-LSTM architecture that used a combination of FastText and some Custom word embeddings, that performed as it did without requiring any significant preprocessing
+
+    **Project Link**: https://github.com/DhruvDh/emocontext
+
+-   **Semi-supervised Natural Language Understanding**\
+    *Natural Language Processing*
+
+    Used generative language models to solve the Natural language Understanding task of user intent identification.
+
+    **Project Link**: https://github.com/DhruvDh/semisupervised_nlu
+
+-   **Visual Search Prototype for Lowe’s**\
+    *Computer Vision*
+
+    Collaborated with Lowe’s Innovation Labs to build a visual search system, that given an image, identifies the product within it, using a very small, computationally efficient Convolutional Neural Network. Was trained to detect products across the category of Decorative Light Bulbs.
+
+    **MVP Demo**: https://youtu.be/WmK4QiC-7Ag
+
+-   **Robotic Arm Manipulation using Quaternion Neural Networks**\
+    *Intelligent Robotics*
+
+    Trained a Quaternion Neural Network to predict what positions the links in a robotic arm should be in for the end-effector to be placed in the desired position. Effectively did the same job as an inverse kinematics solver but with better computational efficiency.
+   
+    **Project Link**: https://dhruvdh.github.io/intelligent_robotics_project/
+
+-   **Speech-To-Text**\
+    *Web Application*
+
+    A progressive web application that generates transcripts from audios of recorded discussions, meetings, etc., and then uses NLP to perform a rudimentary analysis on them. Used - Vue.js, Node.js, and the Google Cloud Platform.
+   
+    **Project Demo**: https://youtu.be/KgCdh2ru6jg
+
+
+-   **Intelligent to-do list**\
+    *Web Application*
+
+    An intelligent to-do list web application for students that could "understand" the intention behind a to-do list item and then proceed to classify to-do items and organize them automatically. It is easier to show than to explain, please refer to the demo
+   
+    **Project Demo**: https://youtu.be/FLrzDlr9oZM
+
+-   **Efficient Implementation of the N-Body problem on CPUs and GPUs**\
+    *Web Application*
+
+    Implementation of the N-body problem that is highly optimized for Intel’s Haswell micro-architecture, written in Rust. The GPU implementation leverages CUDA and is written using the Futhark Parallel Programming language.
+   
+-   **Intent Recognition from Textual User Utterances**\
+    *Natural Language Processing*
+
+    Explored the feasibility of using a hierarchy of classifiers to classify the intent of a user, from textual utterances. Using the crowd-sourced Snips NLU dataset of 13,784 user utterances, the approach was found to have an overall accuracy of 95.16% while only using rudimentary text classification techniques such as Logistic Regression
+   
+    **Project Link**: https://github.com/DhruvDh/ItForSociety2018
+  
+
+
+
 ## Other Work
 
--   **umm:**\
+-   **umm:** A java build tool for novices, also a scriptable autograder.\
     **Project Link:** <https://github.com/DhruvDh/umm>
 
--   **dip_app:**\
+-   **dip_app:** A course website to demonstrate and give student feedback on Digital Image Processing assignments\
     **Project Link:** <https://dhruvdh.github.io/dip_app/>
 
 ## Technical Skills
